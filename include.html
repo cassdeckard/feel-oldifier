@@ -1,2 +1,10 @@
 <h1>Feel-oldifier</h1>
-<p>Under construction</p>
+<h3>(Under construction)</h3>
+<div>
+    How old are you? <input ng-model="userAge"></input>
+</div>
+<div ng-show="userAgeValid()">
+    OK, so you are {{ userAge }}.
+    <adolescent-year-statement>
+    </adolescent-year-statement>
+</div>
